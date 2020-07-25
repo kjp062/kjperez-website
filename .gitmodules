@@ -1,1 +1,4 @@
 
+[submodule "themes/hello"]
+	path = themes/hello
+	url = https://github.com/kjp062/hugo-theme-hello-friend-ng

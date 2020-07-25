@@ -1,0 +1,69 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Hi, I'm Kevin"
+theme = "hello"
+paginate = 10
+
+[params]
+    dateform = "July 25, 2020"
+    dateformShort = "July 25"
+    dateformNum = "2020-07-05"
+    dateformNumTime = "2020-07-25 18:02 -0500"
+
+    homeSubtitle = "Quality Engineer // Creating People-Focused Positive Outcomes with Tech"
+
+    disableReadOtherPosts = false
+
+    enableSharingButtons = true
+
+    description = "Kevin Perez's Personal Website and Blog"
+    keywords = "homepage, portfolio, blog"
+    images = [""]
+
+    defaultTheme = "dark"
+
+    [params.logo]
+        logoText = "Kevin Perez"
+        logoHomeLink = "/"
+        logoCursorColor = "#446e91"
+
+    [[params.social]]
+        name = "email"
+        url  = "keperez19@gmail.com"
+
+    [[params.social]]
+        name = "github"
+        url  = "https://github.com/kjp062"
+
+    [[params.social]]
+        name = "linkedin"
+        url  = "https://www.linkedin.com/in/kevin-perez-712b39139/"
+
+
+[languages]
+  [languages.en]
+    title = "Kevin Perez"
+    subtitle = ""
+    keywords = ""
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+    readOtherPosts = "Read other posts"
+
+    [languages.en.params.logo]
+      logoText = "Kevin Perez"
+      logoHomeLink = "/"
+
+    [[menu.main]]
+        identifier = "about"
+        name       = "About"
+        url        = "/about"
+
+    [[menu.main]]
+        identifier = "resume"
+        name       = "Resume"
+        url        = "/resume"
+
+    [[menu.main]]
+        identifier = "blog"
+        name       = "Blog"
+        url        = "/posts"
+
