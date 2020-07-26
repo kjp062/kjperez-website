@@ -5,12 +5,12 @@ theme = "hello"
 paginate = 10
 
 [params]
-    dateform = "July 25, 2020"
-    dateformShort = "July 25"
-    dateformNum = "2020-07-05"
-    dateformNumTime = "2020-07-25 18:02 -0500"
+    dateform      = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
 
-    homeSubtitle = "Quality Engineer // Creating People-Focused Positive Outcomes with Tech"
+    homeSubtitle = "Quality Engineer // Creating Human-Centered Positive Outcomes with Tech"
 
     disableReadOtherPosts = false
 
@@ -21,6 +21,12 @@ paginate = 10
     images = [""]
 
     defaultTheme = "dark"
+
+    # Colors for favicons
+    [params.favicon.color]
+        mask = "#252627"
+        msapplication = "#252627"
+        theme = "#252627"
 
     [params.logo]
         logoText = "Kevin Perez"
