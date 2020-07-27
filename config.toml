@@ -1,6 +1,6 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "Hi, I'm Kevin"
+title = "Kevin Perez"
 theme = "hello"
 paginate = 10
 
