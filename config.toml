@@ -1,4 +1,4 @@
-baseURL = "http://kjperez.com/"
+baseURL = "/"
 languageCode = "en-us"
 title = "Kevin Perez"
 theme = "hello"
@@ -6,9 +6,9 @@ paginate = 10
 
 [params]
     dateform      = "Jan 2, 2006"
-  dateformShort   = "Jan 2"
-  dateformNum     = "2006-01-02"
-  dateformNumTime = "2006-01-02 15:04 -0700"
+    dateformShort   = "Jan 2"
+    dateformNum     = "2006-01-02"
+    dateformNumTime = "2006-01-02 15:04 -0700"
 
     homeSubtitle = "Quality Engineer // Creating Human-Centered Positive Outcomes with Tech"
 
