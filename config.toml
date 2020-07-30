@@ -16,7 +16,7 @@ paginate = 10
 
     enableSharingButtons = true
 
-    description = "Kevin Perez's Personal Website and Blog"
+    description = "Kevin Perez"
     keywords = "homepage, portfolio, blog"
     images = [""]
 
@@ -45,6 +45,8 @@ paginate = 10
         name = "linkedin"
         url  = "https://www.linkedin.com/in/kevin-perez-712b39139/"
 
+[author]
+    name = "Kevin Perez"
 
 [languages]
   [languages.en]

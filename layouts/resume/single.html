@@ -1,0 +1,202 @@
+{{ define "main" }}
+    <main class="post">
+
+        <div class="post-info">
+            {{ if .IsTranslated }}
+                {{ i18n "postAvailable" }}
+                {{ range .Translations }}
+                    <a href="{{ .Permalink }}"><span class="flag flag-icon flag-icon-{{ index $.Site.Data.langFlags (.Lang) }} flag-icon-squared"></span></a>
+                {{ end}}
+            {{ end }}
+            </p>
+        </div>
+
+        <div class='resume-container'>
+            <div class='experience-container'>
+                <h2 class='resume-heading'>Education</h2>
+                <hr/>
+                <div class='experience-item'>
+                    <div class='experience-title'>
+                        <h4>Georgetown University</h4>
+                        <p>GPA: 3.84<br>
+                        Graduated Cum Laude<br>
+                        Aug 2015 - May 2019</p>
+                    </div>
+                    <div class='experience-desc'>
+                        <h5>B.S. in Foreign Service, Concentration in Regional Studies, Minor in Japanese</h5>
+                        <p>My primary area of study at Georgetown was Regional Geopolitics and National Strategy in East and Southeast Asia. In addition to subject matter expertise, I acquired strong verbal and written communication, critical thinking, analytical skills, and a strong foundation in conducting data-driven research. Aside from my major courses and general requirements, I was also able to take courses in Cybersecurity, Data Ethics, and Data Visualization.</p>
+                    </div>
+                </div>
+                <div class='experience-item'>
+                    <div class='experience-title'>
+                        <h4>Waseda University</h4>
+                        <p>Mar 2018 - Aug 2018</p>
+                    </div>
+                    <div class='experience-desc'>
+                        <h5>School of International Liberal Studies</h5>
+                        <p>The academic focus of my time abroad was improving my Japanese language ability, getting direct knowledge on Japanese politics and international relations, and acquiring new lenses through which I could analyze regional geopolitics. This translated to Japanese classes, a class on the Japanese constitution, and a class on urban and regional planning. In addition to these courses, I also took a class about the increasing ubiquity of technology in society.<p>
+                        <p>Outside of academics, I made the most of my time abroad by engaging with people from a variety of backgrounds. Ranging from students from all over the world to French diplomats, the US charge d'affairs, and Japanese Parliamentarians, each interaction and friendship helped widen my world view and improve my cross-cultural communication.</p>
+                    </div>
+                </div>
+                <div class='experience-item'>
+                    <div class='experience-title'>
+                        <h4>Father Duenas</h4>
+                        <p>Aug 2011 - May 2015</p>
+                    </div>
+                    <div class='experience-desc'>
+                        <h5>High School - Valedictorian</h5>
+                        <p>I graduated highschool at the top of my class. Outside of my classes, I was involved in student government, the National Honor Society, mock trial, and speech and debate./p>
+                    </div>
+                </div>
+            </div>
+            <div class='experience-container'>
+                <h2 class="resume-heading">Professional Experience</h2>
+                <hr/>
+                <div class='experience-item'>
+                    <div class='experience-title'>
+                        <h4>Appian</h4>
+                        <p>Aug 2019 - Present</p>
+                    </div>
+                    <div class='experience-desc'>
+                        <h5>Quality Engineer</h5>
+                        <p>As a Quality Engineer, I develop the testing strategy, review requirements, and engage with engineers, UX designers, support, and sales to ensure we maximize user value and build the right thing from the beginning.</p>
+                        <p>During my time at Appian, I've also been able to work on process improvements, lead Scrum ceremonies, own and develop testing tools and applications, work on independent projects, investigate new technologies, improve onboarding processes, and contribute to our internal knowledge base.</p>
+                    </div>
+                </div>
+                <div class='experience-item'>
+                    <div class='experience-title'>
+                        <h4>Georgetown University <br>
+                        - ESCAPE Program</h4>
+                        <p>May 2018 - April 2019</p>
+                    </div>
+                    <div class='experience-desc'>
+                        <h5>Student Coordinator</h5>
+                        <p>ESCAPE's mission is to help first years with their transition into college and build community while doing that. In 2016, I was a student leader, and I felt so aligned with the mission to the extent that I remained involved in the community. In 2018, I was hired to be one of the student coordinations, and with my co-coordinator, we led 42 student leaders and managed 12 weekend overnight retreats. As coordinators, we were involved in all aspects of the program from recruitment and logistics to execution and post-retreat community building.</p>
+                        <p>In addition to the logistics, marketing, and managements skills I learned during my time with ESCAPE, I also learned a lot about working with people. As a coordinator for 42 leaders who were tasked with engaging with first years from a point of vulnerability, my ability to empathetic was practiced at all times. In addition, our leaders and the 350+ first year students we engaged with came from such diverse backgrounds that this role improved my ability to engage with people who are very different from me and understand their perspective.</p>
+                    </div>
+                </div>
+                <div class='experience-item'>
+                    <div class='experience-title'>
+                        <h4>Georgetown University <br>
+                        - University Information Services</h4>
+                        <p>Aug 2019 - Present</p>
+                    </div>
+                    <div class='experience-desc'>
+                        <h5>Student Technology Consultant</h5>
+                        <p>As a student technology consultant, I served as the first point of contact for students, staff, faculty, and community members who were looking for assistance with the university's provided technology services. This role required me to learn about many of the services that the university provided from printing and available software licenses to course management software and domain hosting. I also served as technical support for regular network issues. Part of my duties included triaging more critical issues using our case management system.</p>
+                    </div>
+                </div>
+                <div class='experience-item'>
+                    <div class='experience-title'>
+                        <h4>Adobe</h4>
+                        <p>Feb 2018 - March 2018 <br>
+                        Sept 2018 - Dec 2018</p>
+                    </div>
+                    <div class='experience-desc'>
+                        <h5>Government Relations Intern</h5>
+                        <p>As a government relations intern, I tracked developments in policy politics regarding major tech issues including cybersecurity, digital literacy, digital modernization, and immigration. I attended meetings held by Congress, trade organizations, and nonprofits on behalf of my team. I worked on these issues from the state level to the international level.</p>
+                        <p>One major project included creating reports and dashboards that were used to in a presentation to the CEO and impacted the department's strategy. Another was a research project that provided members of the department important information that better positioned them in their engagements. To focus on work I found more impactful, I wrote a Python script to finish a task in two days instead of an originally allotted two weeks.</p>
+                    </div>
+                </div>
+                <div class='experience-item'>
+                    <div class='experience-title'>
+                        <h4>Georgetown University <br>
+                        - Dept. of East Asian Languages and Cultures</h4>
+                        <p>May 2016 - April 2018</p>
+                    </div>
+                    <div class='experience-desc'>
+                        <h5>Research Assistant</h5>
+                        <p>Although my title was research assitant, this role was very technical. While working for the Dept. of East Asian Language and Cultures, I created a video to accompany a faculty member's research, developed a website for the department, and led the adoption of an online learning platform meant to aid instudents' vocabulary acquisition. Aside from learning a lot about the subject of these deliverables, I also learned a lot about stakeholder engagement, requirements gathering, user research, and project management.</p>
+                    </div>
+                </div>
+                <div class='experience-item'>
+                    <div class='experience-title'>
+                        <h4>Government of Guam<br>
+                        - Multiple Offices</h4>
+                        <p>May 2016 - April 2018</p>
+                    </div>
+                    <div class='experience-desc'>
+                        <h5>Legislative Analyst | Congressional Intern</h5>
+                        <p>My work with the Government of Guam was through two separate Senatorial offices and a Congressional offices. In 2015 and 2016, I worked for Senator Frank B. Aguon, Jr. as a Legislative Intern and a Legislative Analyst. In those roles, I drafted legislation and managed committee functions related to the office.</p>
+                        <p>In 2016, I worked for Congresswoman Madeleine Z. Bordallo as a Congressional intern where I attended briefings on behalf of the office and conducted research on U.S. defense spending.</p> 
+                        <p>In 2017, I worked for former-Senator, current-Congressman Michael San Nicolas as an intern where I conducted research on Guam's political status. </p>
+                    </div>
+                </div>
+            </div>
+            <div class='misc-container'>
+                <h2 class='resume-heading'>Skills</h2>
+                    <hr/>
+                    <div class='skills-item'>
+                        <ul>
+                            <li>Python
+                                <ul>
+                                    <li>Notable Libraries: Numpy, Pandas, Seaborn, Matplotlib, Selenium</li>
+                                </ul>
+                            </li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>SQL</li>
+                            <li>Git</li>
+                            <li>Agile / Scrum</li>
+                            <li>JIRA</li>
+                            <li>Trello</li>
+                            <li>MS Office Suite</li>
+                            <li>Google Suite</li>
+                            <li>Japanese</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class='misc-container'>
+                <h2 class='resume-heading'>Activities</h2>
+                <hr/>
+                <div class='misc-item'>
+                    <div class='misc-title'>
+                        <h4>Georgetown University Club Filipino</h4>
+                        <p>September 2015 - May 2019</p>
+                    </div>
+                    <div class='misc-desc'>
+                        <h5>Treasurer, Family Head, Member</h5>
+                        <p>As Treasurer, I handled the financial logistics for events with attendance size ranging from 15 to 150. I also handled budget proposals, and through a data-driven approach, the club saw a budget increase of 260% during my tenure. As head of a family, I was in charge of programming and checking in with members of my family. As a member, I attended and performed at cultural events (and had a lot of fun!).</p>
+                    </div>
+                </div>
+                <div class='misc-item'>
+                    <div class='misc-title'>
+                        <h4>Waseda University TEDx</h4>
+                        <p>May 18, 2018</p>
+                    </div>
+                    <div class='misc-desc'>
+                        <h5>Student Speaker Competition Contestant</h5>
+                        <p>During my time abroad, I participated in a competition that would determine who would be the student speaker at Waseda's 2018 TEDx. I gave a talk (in English) about how external influences can inhibit your authentic self and become an obstacle to success.</p>
+                        <p>Quote: "Don’t let external expectations and values constrain you, forge your own path, and don’t allow your passions, talents, and who you are to lay dormant within you, as things unseen."</p>
+                    </div>
+                </div>
+                <div class='misc-item'>
+                    <div class='misc-title'>
+                        <h4>Japanese PLUS</h4>
+                        <p>Dec 2016 - Jan 2017</p>
+                    </div>
+                    <div class='misc-desc'>
+                        <h5>Digital Content Volunteer</h5>
+                        <p>Seeking to combine my interest in technology and Japanese, I found Japanese PLUS late in 2016. I volunteered to work with the director to create and launch their website using WordPress.</p>
+                    </div>
+                </div>
+            </div>
+            <div class='misc-container'>
+                <h2 class='resume-heading'>Hobbies</h2>
+                    <hr/>
+                    <div class='skills-item'>
+                        <ul>
+                            <li>Ukulele</li>
+                            <li>Singing</li>
+                            <li>Cooking</li>
+                            <li>Baking</li>
+                            <li>Coffee</li>
+                            <li>Martial Arts</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+{{ end }}
