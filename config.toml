@@ -20,7 +20,7 @@ paginate = 10
     keywords = "homepage, portfolio, blog"
     images = [""]
 
-    defaultTheme = "dark"
+    defaultTheme = "light"
 
     # Colors for favicons
     [params.favicon.color]
@@ -35,7 +35,7 @@ paginate = 10
 
     [[params.social]]
         name = "email"
-        url  = "keperez19@gmail.com"
+        url  = "hello@kjperez.com"
 
     [[params.social]]
         name = "github"
@@ -64,11 +64,6 @@ paginate = 10
         identifier = "about"
         name       = "About"
         url        = "/about"
-
-    [[menu.main]]
-        identifier = "resume"
-        name       = "Resume"
-        url        = "/resume"
 
     [[menu.main]]
         identifier = "blog"

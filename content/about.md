@@ -14,4 +14,6 @@ Now, my job is to help build products that let organizations harness the power o
 
 I'm hoping to be inspired, come up with innovative solutions to big problems, learn new things, share what I know, and surround myself with people who help me by my best self.
 
-If I can help you out in anyway or you want to connect, [reach out](mailto:keperez19@gmail.com)!
+For more about what I've done in the past few years, check out my ["resume"](/resume).
+
+If I can help you out in anyway or you want to connect, [reach out](mailto:hello@kjperez.com)!
