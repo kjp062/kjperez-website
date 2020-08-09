@@ -5,7 +5,6 @@ toc: false
 images: 
 tags:
 - tech
-draft: true
 
 ---
 {{< figure src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" caption="Photo by Clement H (@clemhlrdt)">}}
@@ -22,7 +21,7 @@ For a long time, I struggled with the idea of establishing a digital presence. T
 
 Essentially, a digital presence would be a tool that would open the digital world for a lot of analog (?) activities I find "life-giving". I love connecting with people and sharing with them, and that was limited by the global pandemic in which we find ourselves. This website will allow me to do what I love anywhere and anytime.
 
-In addition to that, there is also a major "concrete" positive to this website: skill-building. I've been on a journey this past year to improve my technical skills, and this website is a big help for that journey. I currently work in a front-end team, but my proficiency with front-end technologies is like my Japanese: I can understand but speaking the language is hard. I'll go into more detail in the next section, but this website gives me a good reason to practice my HTML/CSS and to learn Javascript.
+In addition to that, there is also a major "concrete" positive to this website: skill-building. I've been on a journey this past year to improve my technical skills, and this website is a big help for that journey. I currently work on a front-end heavy team, but my proficiency with front-end technologies is like my Japanese: I can understand but speaking the language is hard. This website gives me a good reason to practice my HTML/CSS and to learn Javascript.
 
 I am also [really interested in data science]({{< ref "posts/learning-data-science.md" >}}). In my senior year of college, I took a Data Visualization class, and I thought the potential that data had for storytelling was fascinating. That initial interest grew, and a little over a year later, I took a course in machine learning. I intend to use this website to share any projects I do.
 
@@ -32,10 +31,14 @@ On top of all that, this website will keep my writing and research skills fresh.
 
 The last obstacle was figuring out how I would execute.
 
-I built websites before for Georgetown's Japanese department and for a DC education nonprofit with WordPress, so I thought I would start with that. While using WordPress was easy with a clear end product in mind, it was a little difficult with my own personal website which was more open-ended. WordPress offered a ton of plugins to accomplish what I wanted, but that meant opening up an array of things that I needed to research. Instead of working on my website, I was learning about themes, site builders, and SEO plugins amongst other things. I also dedicated some time researching various hosting services, what set them apart, and their price points. I spent so much time doing this research that I still did not have a website, and it was demoralizing not seeing results from my actions. So, I decided to start from scratch.
+I built websites before with WordPress, so I thought I would start with what was familiar. While using WordPress was easy with a clear end product in mind, it was more difficult with my own personal website which was more open-ended. I spent more time working around WordPress's rigidity to accomplish what I wanted than I did actually getting a website up and running. At the end of the day, it was demoralizing not seeing results from my actions. So, I decided to start from scratch.
 
-After some research, I stumbled into the world of static site generators and Hugo. Hugo allowed me to start simply and take on more complex concepts later when I was ready. It also allowed me to use the knowledge I already had (like HTML/CSS and markdown) without worrying about the server-side considerations and databases. The concepts I did need to learn were easy to pick up with Hugo's documentation and help from the Hugo community.
+After some time, I stumbled into the world of static site generators and Hugo. Hugo allowed me to start simply and take on more complex concepts later when I was ready. It also allowed me to use the knowledge I already had (like HTML/CSS and markdown) without worrying about server-side considerations and databases. The concepts I did need to learn were easy to pick up with Hugo's documentation and help from the Hugo community. Additionally, it reduced my costs to just the domain name because hosting and deployment are free thanks to Netlify and Github.
 
-Hugo has had some other positive side-effects. First, it reduced the costs of having this website. Whereas with WordPress there was the cost of hosting, I only have to pay for my domain name with Hugo. Hosting and deployment are free with Netlify and Github. Second, it incentivizes learning and practice. I had very little knowledge about deploying websites, CSS preprocessors, and email forwarding, and I had few avenues to practice my git and web development skills. I've had to touch upon all those subjects and more to get with the site to a point where I was happy enough to publish.
+With Hugo, I now have an MVP version of my website up and running, and I am spending more time working on things that will actually impact my website. There is so much more I can say about the execution of this website, but that probably deserves its own post.
 
-As I finish writing that last paragraph, I realize I may have made Hugo sound more complex than it is. Ultimately, it has allowed me to spend more time learning about what I wanted to accomplish and acting on what I learned, and I'm not done learning! I want to make my own theme from scratch, add forms, add comments, and make my resume page look better. Fortunately, I could get my MVP version of this website out and can do those other things along the way.
+## What's next?
+
+Now I fill my website with content! I have a ton of posts ideas with topics ranging from breaking into tech with a non-technical background to personal growth. I'm excited to write about how I got to where I am now and what I want to do next. I'm also looking forward to developing my skills to make this website even better.
+
+Really, I made this website for myself to catalog my thoughts and experiences. I don't expect many (or any) readers, but if you're not me and you're reading this, I just want to say thanks! Hopefully, I was able to provide some value for you, and if there was anything you were interested in that you want me to expand on, [reach out](mailto:hello@kjperez.com)!
