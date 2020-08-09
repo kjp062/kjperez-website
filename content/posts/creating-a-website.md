@@ -23,7 +23,7 @@ Essentially, a digital presence would be a tool that would open the digital worl
 
 In addition to that, there is also a major "concrete" positive to this website: skill-building. I've been on a journey this past year to improve my technical skills, and this website is a big help for that journey. I currently work on a front-end heavy team, but my proficiency with front-end technologies is like my Japanese: I can understand but speaking the language is hard. This website gives me a good reason to practice my HTML/CSS and to learn Javascript.
 
-I am also [really interested in data science]({{< ref "posts/learning-data-science.md" >}}). In my senior year of college, I took a Data Visualization class, and I thought the potential that data had for storytelling was fascinating. That initial interest grew, and a little over a year later, I took a course in machine learning. I intend to use this website to share any projects I do.
+I am also really interested in data science. In my senior year of college, I took a Data Visualization class, and I thought the potential that data had for storytelling was fascinating. That initial interest grew, and a little over a year later, I took a course in machine learning. I intend to use this website to share any projects I do.
 
 On top of all that, this website will keep my writing and research skills fresh. Nowadays, most of my writing is limited to emails, meeting notes, and technical documents, so I'm excited that I can use this website to write about things like my journey in tech. Overall, this whole endeavor opens up a lot of possibilities, and I'm glad I finally took the first step.
 
