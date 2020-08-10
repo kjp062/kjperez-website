@@ -3,6 +3,7 @@ languageCode = "en-us"
 title = "Kevin Perez"
 theme = "hello"
 paginate = 10
+googleAnalytics = "UA-175033523-1"
 
 [params]
     dateform      = "Jan 2, 2006"
