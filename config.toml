@@ -36,11 +36,7 @@ googleAnalytics = "UA-175033523-1"
 
     [[params.social]]
         name = "email"
-        url  = "hello@kjperez.com"
-
-    [[params.social]]
-        name = "github"
-        url  = "https://github.com/kjp062"
+        url  = "mailto:hello@kjperez.com"
 
     [[params.social]]
         name = "linkedin"
