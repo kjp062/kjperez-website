@@ -1,6 +1,6 @@
 ---
 title: I made a website! Why?
-date: 2020-08-09T17:50:00+00:00
+date: 2020-07-30T17:50:00+00:00
 toc: false
 images: 
 tags:
