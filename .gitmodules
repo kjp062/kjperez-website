@@ -2,3 +2,7 @@
 [submodule "themes/hello"]
 	path = themes/hello
 	url = https://github.com/kjp062/hugo-theme-hello-friend-ng
+
+[submodule "path_to_submodule"] 
+  path = themes/noteworthy
+  url = https://github.com/kimcc/hugo-theme-noteworthy
