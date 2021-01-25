@@ -5,7 +5,6 @@ title = "Kevin Perez"
 theme = "noteworthy"
 paginate = 5
 summaryLength = 10
-googleAnalytics = "UA-175033523-1"
 
 [params]
     dateform      = "Jan 2, 2006"
