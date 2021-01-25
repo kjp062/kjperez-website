@@ -1,4 +1,5 @@
 baseURL = "https://kjperez.com"
+googleAnalytics = "UA-175033523-1"
 languageCode = "en-us"
 title = "Kevin Perez"
 theme = "noteworthy"

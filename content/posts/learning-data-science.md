@@ -6,6 +6,7 @@ images:
 tags:
 - tech
 - data science
+draft: true
 
 ---
 {{< figure src="https://images.unsplash.com/photo-1582501366399-12b59e61582c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80" caption="Photo by Rod Long (@rodlong)">}}

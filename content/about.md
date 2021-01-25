@@ -1,7 +1,8 @@
 ---
-title: "Hi, I'm Kevin"
-date: 2020-07-25T18:59:18-04:00
-draft: false
+title: Hi, I'm Kevin
+date: 2020-07-25T18:59:18.000-04:00
+draft: true
+
 ---
 <!-- < image src="/Images/AboutPhoto.jpg" style="float: left; width: 40%; margin: 8px 25px 8px 0;">}} -->
 I use tech to solve people's problems.
