@@ -1,8 +1,9 @@
 baseURL = "https://kjperez.com"
 languageCode = "en-us"
 title = "Kevin Perez"
-theme = "hello"
-paginate = 10
+theme = "noteworthy"
+paginate = 5
+summaryLength = 10
 googleAnalytics = "UA-175033523-1"
 
 [params]
@@ -11,17 +12,20 @@ googleAnalytics = "UA-175033523-1"
     dateformNum     = "2006-01-02"
     dateformNumTime = "2006-01-02 15:04 -0700"
 
-    homeSubtitle = "Quality Engineer // Creating Human-Centered Positive Outcomes with Tech"
-
     disableReadOtherPosts = false
-
+    showReadMore = true
     enableSharingButtons = true
 
-    description = "Kevin Perez"
+    description = "This is a place where I try to make sense of this whole growing up thing."
     keywords = "homepage, portfolio, blog"
     images = [""]
 
     defaultTheme = "light"
+
+    # Icons
+    email = "mailto:hello@kjperez.com"
+    linkedin = "https://www.linkedin.com/in/kevin-perez-712b39139/"
+    soundcloud = "https://soundcloud.com/kjp62/sets/lunch-break/s-V6S8pRXqqWl"
 
     # Colors for favicons
     [params.favicon.color]
@@ -33,14 +37,6 @@ googleAnalytics = "UA-175033523-1"
         logoText = "Kevin Perez"
         logoHomeLink = "/"
         logoCursorColor = "#446e91"
-
-    [[params.social]]
-        name = "email"
-        url  = "mailto:hello@kjperez.com"
-
-    [[params.social]]
-        name = "linkedin"
-        url  = "https://www.linkedin.com/in/kevin-perez-712b39139/"
 
 [author]
     name = "Kevin Perez"
@@ -57,13 +53,37 @@ googleAnalytics = "UA-175033523-1"
       logoText = "Kevin Perez"
       logoHomeLink = "/"
 
-    [[menu.main]]
-        identifier = "about"
-        name       = "About"
-        url        = "/about"
+    # There is an About page I have and could use, but it's been deleted.
+    # [[menu.main]]
+    #    identifier = "about"
+    #    name       = "About"
+    #    url        = "/about"
 
     [[menu.main]]
         identifier = "blog"
         name       = "Blog"
         url        = "/posts"
+
+
+[privacy]
+  [privacy.disqus]
+    disable = false
+  [privacy.googleAnalytics]
+    anonymizeIP = true
+    disable = false
+    respectDoNotTrack = false
+    useSessionStorage = false
+  [privacy.instagram]
+    disable = false
+    simple = false
+  [privacy.twitter]
+    disable = false
+    enableDNT = false
+    simple = false
+  [privacy.vimeo]
+    disable = false
+    simple = false
+  [privacy.youtube]
+    disable = false
+    privacyEnhanced = true
 

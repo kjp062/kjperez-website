@@ -3,7 +3,7 @@ title: "Hi, I'm Kevin"
 date: 2020-07-25T18:59:18-04:00
 draft: false
 ---
-{{< image src="/Images/AboutPhoto.jpg" style="float: left; width: 40%; margin: 8px 25px 8px 0;">}}
+<!-- < image src="/Images/AboutPhoto.jpg" style="float: left; width: 40%; margin: 8px 25px 8px 0;">}} -->
 I use tech to solve people's problems.
 
 Growing up with big dreams and few resources meant I had to be enterprising. While my family couldn't afford fancy prep books or tutors, I had all I needed: a computer. From childhood to now, I've used technology to learn new skills, connect with people, make my finances something fun, make my schedule work for me, and more.
