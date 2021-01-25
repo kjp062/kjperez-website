@@ -1,69 +1,48 @@
 baseURL = "https://kjperez.com"
-languageCode = "en-us"
-title = "Kevin Perez"
-theme = "hello"
-paginate = 10
 googleAnalytics = "UA-175033523-1"
-
-[params]
-    dateform      = "Jan 2, 2006"
-    dateformShort   = "Jan 2"
-    dateformNum     = "2006-01-02"
-    dateformNumTime = "2006-01-02 15:04 -0700"
-
-    homeSubtitle = "Quality Engineer // Creating Human-Centered Positive Outcomes with Tech"
-
-    disableReadOtherPosts = false
-
-    enableSharingButtons = true
-
-    description = "Kevin Perez"
-    keywords = "homepage, portfolio, blog"
-    images = [""]
-
-    defaultTheme = "light"
-
-    # Colors for favicons
-    [params.favicon.color]
-        mask = "#252627"
-        msapplication = "#252627"
-        theme = "#252627"
-
-    [params.logo]
-        logoText = "Kevin Perez"
-        logoHomeLink = "/"
-        logoCursorColor = "#446e91"
-
-    [[params.social]]
-        name = "email"
-        url  = "mailto:hello@kjperez.com"
-
-    [[params.social]]
-        name = "linkedin"
-        url  = "https://www.linkedin.com/in/kevin-perez-712b39139/"
-
+languageCode = "en-us"
+paginate = 10
+theme = "hello"
+title = "Kevin Perez"
 [author]
-    name = "Kevin Perez"
-
-[languages]
-  [languages.en]
-    title = "Kevin Perez"
-    subtitle = ""
-    keywords = ""
-    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
-    readOtherPosts = "Read other posts"
-
-    [languages.en.params.logo]
-      logoText = "Kevin Perez"
-      logoHomeLink = "/"
-
-    [[menu.main]]
-        identifier = "about"
-        name       = "About"
-        url        = "/about"
-
-    [[menu.main]]
-        identifier = "blog"
-        name       = "Blog"
-        url        = "/posts"
-
+name = "Kevin Perez"
+[languages.en]
+copyright = "<a href=\"https://creativecommons.org/licenses/by-nc/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY-NC 4.0</a>"
+keywords = ""
+readOtherPosts = "Read other posts"
+subtitle = ""
+title = "Kevin Perez"
+[languages.en.params.logo]
+logoHomeLink = "/"
+logoText = "Kevin Perez"
+[[menu.main]]
+identifier = "blog"
+name = "Blog"
+url = "/posts"
+weight = 1
+[params]
+dateform = "Jan 2, 2006"
+dateformNum = "2006-01-02"
+dateformNumTime = "2006-01-02 15:04 -0700"
+dateformShort = "Jan 2"
+defaultTheme = "light"
+description = "Kevin Perez"
+disableReadOtherPosts = false
+enableSharingButtons = true
+homeSubtitle = "Quality Engineer // Creating Human-Centered Positive Outcomes with Tech"
+images = [""]
+keywords = "homepage, portfolio, blog"
+[params.favicon.color]
+mask = "#252627"
+msapplication = "#252627"
+theme = "#252627"
+[params.logo]
+logoCursorColor = "#446e91"
+logoHomeLink = "/"
+logoText = "Kevin Perez"
+[[params.social]]
+name = "email"
+url = "mailto:hello@kjperez.com"
+[[params.social]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/kevin-perez-712b39139/"
